@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AUREVIA</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
@@ -15,704 +15,1297 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="icon" href="d:\my finaly project\AUREVIA - Copie.jpg" type="img/png">
+
+    <style>
+        #ai:hover {
+            color: #c19921 !important;
+        }
+
+        #on:hover {
+            color: #233b4d !important;
+        }
+
+        #ch:hover {
+            background-color: grey;
+        }
+    </style>
+
 </head>
 
 <body>
-    <div
-        style="background-image: url('napoli2.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;width: 100%;height: 1000px;padding: 0;margin: 0;">
-        <nav style="background-color:rgb(255, 253, 253);margin: 0;padding: 0;position: static;height: 120px;"
-            class="navbar navbar-expand-lg bg-light">
-            <div style="background-color: rgba(255, 255, 255, 0);" class="container-fluid">
+    <div>
+        <div style="background-position: center;width: 100%;height: 1000px;padding: 0;margin: 0;">
+            <nav style="background-color:rgb(255, 253, 253);margin: 0;padding: 0;position: fixed;height: 120px; width: 100%; z-index: 50;"
+                class="navbar navbar-expand-lg bg-light">
+                <div style="background-color: rgb(255, 255, 255);" class="container-fluid">
+                    <img style="width: 150px;height: 120px;background-color: aquamarine; margin-right: 8%;" src="AUREVIA.jpg"
+                                alt="">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav" style="display: flex; align-items: center;gap: 40px;">
+                            
+                            <li class="nav-item dropdown">
+                                <style></style>
+                                <a id="ai"
+                                    style=" color: #233b4d;font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700 ;"
+                                    class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Book
+                                </a>
+                                <ul style="width: 600px;padding: 30px;border-radius: 15px;;flex-direction: column;"
+                                    class="dropdown-menu">
+                                    <div style="display: flex;">
+                                        <div>
+                                            <li
+                                                style="color:#c19921 ;font-weight: bold;padding-left: 15px;font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
+                                                Book your next trip</li>
 
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav" style="display: flex; align-items: center;gap: 40px;">
-                        <img style="width: 150px;height: 120px;background-color: aquamarine;" src="AUREVIA.jpg" alt="">
-                        <li class="nav-item dropdown">
-                            <a style=" color: #233b4d;font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;"
-                                class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Book
-                            </a>
-                            <ul style="width: 600px;padding: 30px;border-radius: 15px;;flex-direction: column;"
-                                class="dropdown-menu">
-                                <div style="display: flex;">
-                                    <div>
-                                        <li
-                                            style="color:#c19921 ;font-weight: bold;padding-left: 15px;font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
-                                            Book your next trip</li>
-
-                                        <li style="margin-top: 15px;">
-                                            <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="tickets.html">
-                                                <div style="display: flex;gap: 13px;">
-                                                    <svg style="width: 25px;margin-bottom: 30px;"
-                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-                                                        role="img" aria-hidden="true">
-                                                        <path
-                                                            d="M29.219 2.781q-.72-.75-2.39-.11-1.672.642-3.267 2.235l-4.437 4.438-15-3.406-1.75 1.78 11.75 6.626a61 61 0 0 0-2.703 3.062 116 116 0 0 0-2.516 3.125l-5.875-.75L2 20.813 8 24l3.188 6 1.03-1.031-.75-5.875q1.376-1.063 3.126-2.516a61 61 0 0 0 3.062-2.703l6.625 11.75 1.782-1.75-3.407-15 4.438-4.437q1.593-1.595 2.234-3.266.64-1.673-.11-2.39">
-                                                        </path>
-                                                    </svg>
-                                                    <div
-                                                        style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
-                                                        <p
-                                                            style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
-                                                            Tickets</p>
-                                                        <p style="color: rgb(148, 154, 154);">Book your next flight</p>
+                                            <li style="margin-top: 15px;">
+                                                <a style="color: rgb(0, 0, 0);" class="dropdown-item"
+                                                    href="tickets.html">
+                                                    <div style="display: flex;gap: 13px;">
+                                                        <svg style="width: 25px;margin-bottom: 30px;"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                                            role="img" aria-hidden="true">
+                                                            <path
+                                                                d="M29.219 2.781q-.72-.75-2.39-.11-1.672.642-3.267 2.235l-4.437 4.438-15-3.406-1.75 1.78 11.75 6.626a61 61 0 0 0-2.703 3.062 116 116 0 0 0-2.516 3.125l-5.875-.75L2 20.813 8 24l3.188 6 1.03-1.031-.75-5.875q1.376-1.063 3.126-2.516a61 61 0 0 0 3.062-2.703l6.625 11.75 1.782-1.75-3.407-15 4.438-4.437q1.593-1.595 2.234-3.266.64-1.673-.11-2.39">
+                                                            </path>
+                                                        </svg>
+                                                        <div
+                                                            style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
+                                                            <p
+                                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
+                                                                Tickets</p>
+                                                            <p style="color: rgb(148, 154, 154);">Book your next flight
+                                                            </p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </a>
-                                        </li>
+                                                </a>
+                                            </li>
 
 
 
-                                        <li style="margin-top: 15px;">
-                                            <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
-                                                <div style="display: flex;gap: 13px;">
-                                                    <svg style="width: 25px;margin-bottom: 30px;"
-                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-                                                        role="img" aria-hidden="true">
-                                                        <path
-                                                            d="M17.188 6.469V2q0-.5-.344-.844T16 .813t-.844.343-.344.844v4.469a11.2 11.2 0 0 1 2.376 0M14.813 25.53V30q0 .5.343.844t.844.343.844-.343.343-.844v-4.469a11.2 11.2 0 0 1-2.375 0M8.406 10.125 5.25 6.938q-.344-.344-.344-.844t.344-.844.844-.344.843.344l3.188 3.156q-.5.375-.922.797a9 9 0 0 0-.797.922m15.188 11.75 3.156 3.188q.345.343.344.843 0 .5-.344.844-.187.188-.406.266a1.3 1.3 0 0 1-.438.078q-.25 0-.468-.078a.86.86 0 0 1-.375-.266l-3.188-3.156q.5-.375.922-.797t.797-.922M6.469 14.813H2q-.5 0-.844.343T.813 16t.343.844.844.343h4.469a11.2 11.2 0 0 1 0-2.375m23.531 0h-4.469a11.2 11.2 0 0 1 0 2.374H30q.5 0 .844-.343t.343-.844-.343-.844-.844-.344M8.406 21.875q.375.5.797.922t.922.797L6.938 26.75a.86.86 0 0 1-.375.266 1.4 1.4 0 0 1-.47.078q-.217 0-.437-.078a1.1 1.1 0 0 1-.406-.266q-.344-.344-.344-.844t.344-.843zm15.188-11.75a9 9 0 0 0-.797-.922 9 9 0 0 0-.922-.797l3.188-3.156q.343-.344.843-.344t.844.344q.345.344.344.844 0 .5-.344.843zM22.812 16q0 1.407-.546 2.64a7.1 7.1 0 0 1-1.47 2.157 7.1 7.1 0 0 1-2.155 1.469 6.45 6.45 0 0 1-2.641.547 6.45 6.45 0 0 1-2.64-.547 7.1 7.1 0 0 1-2.157-1.47 7.1 7.1 0 0 1-1.469-2.155A6.45 6.45 0 0 1 9.188 16q0-1.407.546-2.64a7.1 7.1 0 0 1 1.47-2.157 7.1 7.1 0 0 1 2.155-1.469A6.45 6.45 0 0 1 16 9.188q1.407 0 2.64.546a7.1 7.1 0 0 1 2.157 1.47 7.1 7.1 0 0 1 1.469 2.155q.547 1.234.547 2.641">
+                                            <li style="margin-top: 15px;">
+                                                <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
+                                                    <div style="display: flex;gap: 13px;">
+                                                        <svg style="width: 25px;margin-bottom: 30px;"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                                            role="img" aria-hidden="true">
+                                                            <path
+                                                                d="M17.188 6.469V2q0-.5-.344-.844T16 .813t-.844.343-.344.844v4.469a11.2 11.2 0 0 1 2.376 0M14.813 25.53V30q0 .5.343.844t.844.343.844-.343.343-.844v-4.469a11.2 11.2 0 0 1-2.375 0M8.406 10.125 5.25 6.938q-.344-.344-.344-.844t.344-.844.844-.344.843.344l3.188 3.156q-.5.375-.922.797a9 9 0 0 0-.797.922m15.188 11.75 3.156 3.188q.345.343.344.843 0 .5-.344.844-.187.188-.406.266a1.3 1.3 0 0 1-.438.078q-.25 0-.468-.078a.86.86 0 0 1-.375-.266l-3.188-3.156q.5-.375.922-.797t.797-.922M6.469 14.813H2q-.5 0-.844.343T.813 16t.343.844.844.343h4.469a11.2 11.2 0 0 1 0-2.375m23.531 0h-4.469a11.2 11.2 0 0 1 0 2.374H30q.5 0 .844-.343t.343-.844-.343-.844-.844-.344M8.406 21.875q.375.5.797.922t.922.797L6.938 26.75a.86.86 0 0 1-.375.266 1.4 1.4 0 0 1-.47.078q-.217 0-.437-.078a1.1 1.1 0 0 1-.406-.266q-.344-.344-.344-.844t.344-.843zm15.188-11.75a9 9 0 0 0-.797-.922 9 9 0 0 0-.922-.797l3.188-3.156q.343-.344.843-.344t.844.344q.345.344.344.844 0 .5-.344.843zM22.812 16q0 1.407-.546 2.64a7.1 7.1 0 0 1-1.47 2.157 7.1 7.1 0 0 1-2.155 1.469 6.45 6.45 0 0 1-2.641.547 6.45 6.45 0 0 1-2.64-.547 7.1 7.1 0 0 1-2.157-1.47 7.1 7.1 0 0 1-1.469-2.155A6.45 6.45 0 0 1 9.188 16q0-1.407.546-2.64a7.1 7.1 0 0 1 1.47-2.157 7.1 7.1 0 0 1 2.155-1.469A6.45 6.45 0 0 1 16 9.188q1.407 0 2.64.546a7.1 7.1 0 0 1 2.157 1.47 7.1 7.1 0 0 1 1.469 2.155q.547 1.234.547 2.641">
 
-                                                        </path>
-                                                    </svg>
-                                                    <div
-                                                        style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
-                                                        <p
-                                                            style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
-                                                            Aurevia Holidays</p>
-                                                        <p style="color: rgb(148, 154, 154);">Book your flight and hotel
-                                                            in one go</p>
+                                                            </path>
+                                                        </svg>
+                                                        <div
+                                                            style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
+                                                            <p
+                                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
+                                                                Aurevia Holidays</p>
+                                                            <p style="color: rgb(148, 154, 154);">Book your flight and
+                                                                hotel
+                                                                in one go</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </a>
-                                        </li>
+                                                </a>
+                                            </li>
 
-                                        <li style="margin-top: 15px;">
-                                            <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
-                                                <div style="display: flex;gap: 13px;">
-                                                    <svg style="width: 25px;margin-bottom: 30px;"
-                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-                                                        role="img" aria-hidden="true">
-                                                        <path
-                                                            d="M11 9.906q1.844 0 3.219.89 1.375.892 1.687 2.204h.188q.312-1.313 1.687-2.203T21 9.907t3.219.89q1.375.89 1.687 2.203H28V7q0-1.25-.875-2.125A2.9 2.9 0 0 0 25 4H7q-1.25 0-2.125.875A2.9 2.9 0 0 0 4 7v6h2.094q.312-1.313 1.687-2.203T11 9.907M28 15H4q-1.25 0-2.125.875A2.9 2.9 0 0 0 1 18v10h4v-3h22v3h4V18q0-1.25-.875-2.125A2.9 2.9 0 0 0 28 15">
+                                            <li style="margin-top: 15px;">
+                                                <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
+                                                    <div style="display: flex;gap: 13px;">
+                                                        <svg style="width: 25px;margin-bottom: 30px;"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                                            role="img" aria-hidden="true">
+                                                            <path
+                                                                d="M11 9.906q1.844 0 3.219.89 1.375.892 1.687 2.204h.188q.312-1.313 1.687-2.203T21 9.907t3.219.89q1.375.89 1.687 2.203H28V7q0-1.25-.875-2.125A2.9 2.9 0 0 0 25 4H7q-1.25 0-2.125.875A2.9 2.9 0 0 0 4 7v6h2.094q.312-1.313 1.687-2.203T11 9.907M28 15H4q-1.25 0-2.125.875A2.9 2.9 0 0 0 1 18v10h4v-3h22v3h4V18q0-1.25-.875-2.125A2.9 2.9 0 0 0 28 15">
 
-                                                        </path>
-                                                    </svg>
-                                                    </svg>
-                                                    <div
-                                                        style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
-                                                        <p
-                                                            style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
-                                                            Hotels</p>
-                                                        <p style="color: rgb(148, 154, 154);">Book your stay on
-                                                            booking.com</p>
+                                                            </path>
+                                                        </svg>
+                                                        </svg>
+                                                        <div
+                                                            style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
+                                                            <p
+                                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
+                                                                Hotels</p>
+                                                            <p style="color: rgb(148, 154, 154);">Book your stay on
+                                                                booking.com</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </a>
-                                        </li>
+                                                </a>
+                                            </li>
 
-                                        <li style="margin-top: 15px;">
-                                            <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
-                                                <div style="display: flex;gap: 13px;">
-                                                    <svg style="width: 25px;margin-bottom: 30px;"
-                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-                                                        role="img" aria-hidden="true">
-                                                        <path
-                                                            d="M28 10q.625 0 1.063.438.437.437.437 1.062 0 .624-.437 1.063A1.45 1.45 0 0 1 28 13h-1l.813.813A3.98 3.98 0 0 1 29 16.656V26h-4v-3H7v3H3v-9.344q0-.78.313-1.531t.874-1.312L5 13H4q-.625 0-1.062-.437A1.45 1.45 0 0 1 2.5 11.5q0-.625.438-1.062A1.45 1.45 0 0 1 4 10h2.125l1.156-3.062A2.8 2.8 0 0 1 8.375 5.53 3 3 0 0 1 10.094 5h11.812q.938 0 1.719.531.78.531 1.094 1.407L25.875 10zM11 20v-2l-5-1v3zm-2.781-7H23.78l-1.875-5H10.063zM26 20v-3l-5 1v2z">
+                                            <li style="margin-top: 15px;">
+                                                <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
+                                                    <div style="display: flex;gap: 13px;">
+                                                        <svg style="width: 25px;margin-bottom: 30px;"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                                            role="img" aria-hidden="true">
+                                                            <path
+                                                                d="M28 10q.625 0 1.063.438.437.437.437 1.062 0 .624-.437 1.063A1.45 1.45 0 0 1 28 13h-1l.813.813A3.98 3.98 0 0 1 29 16.656V26h-4v-3H7v3H3v-9.344q0-.78.313-1.531t.874-1.312L5 13H4q-.625 0-1.062-.437A1.45 1.45 0 0 1 2.5 11.5q0-.625.438-1.062A1.45 1.45 0 0 1 4 10h2.125l1.156-3.062A2.8 2.8 0 0 1 8.375 5.53 3 3 0 0 1 10.094 5h11.812q.938 0 1.719.531.78.531 1.094 1.407L25.875 10zM11 20v-2l-5-1v3zm-2.781-7H23.78l-1.875-5H10.063zM26 20v-3l-5 1v2z">
 
-                                                        </path>
-                                                    </svg>
-                                                    </svg>
-                                                    </svg>
-                                                    <div
-                                                        style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
-                                                        <p
-                                                            style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
-                                                            Rental car</p>
-                                                        <p style="color: rgb(148, 154, 154);">Book a rental car easily
-                                                        </p>
+                                                            </path>
+                                                        </svg>
+                                                        </svg>
+                                                        </svg>
+                                                        <div
+                                                            style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
+                                                            <p
+                                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
+                                                                Rental car</p>
+                                                            <p style="color: rgb(148, 154, 154);">Book a rental car
+                                                                easily
+                                                            </p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                    </div>
-
-                                    <div>
-                                        <li
-                                            style="color:#c19921 ;font-weight: bold;padding-bottom: 25px;padding-left: 15px;font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
-                                            Discover</li>
-                                        <div
-                                            style="display: flex;align-content:space-between ;flex-wrap: wrap;gap: 20px;">
-
-                                            <a href="" class="dropdown-item" href="#"
-                                                style="padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Destinations</a>
-
-
-                                            <a href="" class="dropdown-item" href="#"
-                                                style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Advanced
-                                                search</a>
+                                                </a>
+                                            </li>
 
                                         </div>
 
-                                    </div>
-                                </div>
+                                        <div>
+                                            <li
+                                                style="color:#c19921 ;font-weight: bold;padding-bottom: 25px;padding-left: 15px;font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
+                                                Discover</li>
+                                            <div
+                                                style="display: flex;align-content:space-between ;flex-wrap: wrap;gap: 20px;">
+
+                                                <a href="" class="dropdown-item" href="#"
+                                                    style="padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Destinations</a>
 
 
+                                                <a href="" class="dropdown-item" href="#"
+                                                    style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Advanced
+                                                    search</a>
 
+                                            </div>
 
-                            </ul>
-
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a style="color: #233b4d;font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;"
-                                class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Manage booking
-                            </a>
-                            <ul style="width: 700px;padding: 30px;border-radius: 15px;;flex-direction: column;"
-                                class="dropdown-menu">
-                                <div style="display: flex;">
-                                    <div>
-                                        <li
-                                            style="color:#c19921 ;font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;padding-left: 15px;">
-                                            Your booking</li>
-
-                                        <li style="margin-top: 15px;">
-                                            <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
-                                                <div style="display: flex;gap: 13px;">
-                                                    <svg style="width: 25px;margin-bottom: 30px;"
-                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-                                                        role="img" aria-hidden="true">
-                                                        <path fill-rule="evenodd"
-                                                            d="M12.813 15.188q-2.157 0-3.547-2.047T7.625 8.219q-.25-2.907 1.39-4.563Q10.657 2 12.813 2q2.125 0 3.766 1.656 1.64 1.656 1.39 4.563-.25 2.874-1.64 4.922-1.39 2.046-3.516 2.046m6.968 1.75-6.25 6.25H.813l.906-3.22q.28-.937.968-1.624t1.625-.969l4.407-1.25 4.094 4.063q0-.063 1.359-1.422l2.672-2.672zm6.313-3.844L32 19l-9.719 9.719a.4.4 0 0 0-.031-.14.2.2 0 0 0-.094-.11.49.49 0 0 0-.39-.188.49.49 0 0 0-.391.188.49.49 0 0 0-.187.39q0 .235.187.391.03.063.11.094.077.03.14.031L19 32l-5.906-5.906 2.625-2.625q0 .062.031.125a.53.53 0 0 0 .484.281.53.53 0 0 0 .547-.547.53.53 0 0 0-.156-.39.2.2 0 0 0-.11-.094.4.4 0 0 0-.14-.031zm-8.094 12a.49.49 0 0 0 .188-.39.49.49 0 0 0-.188-.391.53.53 0 0 0-.39-.157.53.53 0 0 0-.391.157.53.53 0 0 0-.156.39.53.53 0 0 0 .156.39.49.49 0 0 0 .39.188.49.49 0 0 0 .391-.187m1.406 1.406a.64.64 0 0 0 .156-.422.53.53 0 0 0-.156-.39.62.62 0 0 0-.406-.157.62.62 0 0 0-.406.156.62.62 0 0 0-.156.407q0 .219.156.406.187.156.406.156a.62.62 0 0 0 .406-.156m1.375 1.375a.62.62 0 0 0 .156-.406.62.62 0 0 0-.156-.406.62.62 0 0 0-.406-.157.62.62 0 0 0-.406.156.62.62 0 0 0-.156.407q0 .219.156.406.187.156.406.156a.62.62 0 0 0 .406-.156m5.156-4.375-.625-2.937 1.188-1.157q.344-.375.438-.719.093-.343-.063-.468-.155-.156-.5-.063-.344.095-.687.438L24.53 19.78l-2.937-.625-.344.375 2.281 1.25-1.312 1.282-1.063-.094-.187.187 1.187.782.781 1.187.188-.187-.094-1.063 1.281-1.312 1.25 2.28z"
-                                                            clip-rule="evenodd"></path>
-                                                    </svg>
-                                                    <div
-                                                        style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
-                                                        <p
-                                                            style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
-                                                            Manage your booking</p>
-                                                        <p style="color: rgb(148, 154, 154);;">Arrange it yourself in My
-                                                            Transavia </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-
-
-                                        <li style="margin-top: 15px;">
-                                            <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="online.html">
-                                                <div style="display: flex;gap: 13px;">
-                                                    <svg style="width: 25px;margin-bottom: 30px;"
-                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-                                                        role="img" aria-hidden="true">
-                                                        <path
-                                                            d="m20.938 10.094-4.75 6.437L12 12.375l1.406-1.437 2.563 2.53 3.375-4.562zM28 19l4 4v2q0 .844-.578 1.422Q30.843 27 30 27H2q-.813 0-1.406-.578A1.9 1.9 0 0 1 0 25v-2l4-4V5q0-.405.297-.703A.96.96 0 0 1 5 4h22q.406 0 .703.297A.96.96 0 0 1 28 5zm-8 5v-1h-8v1zm6-5V6H6v13z">
-                                                        </path>
-                                                    </svg>
-                                                    <div
-                                                        style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
-                                                        <p
-                                                            style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
-                                                            Online check-in</p>
-                                                        <p style="color: rgb(148, 154, 154);">Check in online for your
-                                                            flight</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                        <li style="margin-top: 15px;">
-                                            <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
-                                                <div style="display: flex;gap: 13px;">
-                                                    <svg style="width: 25px;margin-bottom: 30px;"
-                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-                                                        role="img" aria-hidden="true">
-                                                        <path
-                                                            d="M31.37 2.23a3.16 3.16 0 0 1-.83 1.32 9 9 0 0 1-3.15 2C23.71 7.05 20 8.52 16.35 10a34 34 0 0 1-6.87 1.8c-1.42.24-2.86.4-4.29.59a1 1 0 0 0-.24 0c-.52.16-.79-.11-1.09-.5C2.66 10.3 1.43 8.77.21 7.23A.9.9 0 0 0 0 7c.41-.17.8-.33 1.19-.47a.42.42 0 0 1 .3.06l4.59 2.09a.5.5 0 0 0 .34 0C8.27 8 10.12 7.22 12 6.47l.15-.08L4.79.81C5.37.59 5.92.4 6.44.15A1.46 1.46 0 0 1 7.7.13c3.43 1.26 6.86 2.49 10.3 3.73a.73.73 0 0 0 .58 0c2.33-.93 4.65-1.86 7-2.77a9 9 0 0 1 3.91-.68 3.1 3.1 0 0 1 1.29.37 1.2 1.2 0 0 1 .59 1.45M0 23.16h19.69v-2.91H0ZM29.08 6.39a1.48 1.48 0 1 0 1.47 1.49 1.48 1.48 0 0 0-1.47-1.49m-9.86 4a1.47 1.47 0 1 0 1.46 1.46 1.47 1.47 0 0 0-1.46-1.5Z">
-                                                        </path>
-                                                    </svg>
-                                                    <div
-                                                        style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
-                                                        <p
-                                                            style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
-                                                            Flight status</p>
-                                                        <p style="color: rgb(148, 154, 154);">Check the status of your
-                                                            flight</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-
-
+                                        </div>
                                     </div>
 
-                                    <div>
-                                        <li
-                                            style="color:#c19921 ;font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;padding-bottom: 25px;padding-left: 15px;">
-                                            Go directly to </li>
-                                        <div
-                                            style="display: flex;align-content:space-between ;flex-wrap: wrap;gap: 20px;">
 
-                                            <a href="" class="dropdown-item" href="#"
-                                                style="padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Book
-                                                hold luggage</a>
-                                            <a href="" class="dropdown-item" href="#"
-                                                style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Reserve
-                                                a seat </a>
-                                            <a href="" class="dropdown-item" href="#"
-                                                style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Change
-                                                your flight </a>
-                                            <a href="" class="dropdown-item" href="#"
-                                                style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Request
-                                                booking confirmation</a>
+
+
+                                </ul>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a id="ai"
+                                    style="color: #233b4d;font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;"
+                                    class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Manage booking
+                                </a>
+                                <ul style="width: 700px;padding: 30px;border-radius: 15px;;flex-direction: column;"
+                                    class="dropdown-menu">
+                                    <div style="display: flex;">
+                                        <div>
+                                            <li
+                                                style="color:#c19921 ;font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;padding-left: 15px;">
+                                                Your booking</li>
+
+                                            <li style="margin-top: 15px;">
+                                                <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
+                                                    <div style="display: flex;gap: 13px;">
+                                                        <svg style="width: 25px;margin-bottom: 30px;"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                                            role="img" aria-hidden="true">
+                                                            <path fill-rule="evenodd"
+                                                                d="M12.813 15.188q-2.157 0-3.547-2.047T7.625 8.219q-.25-2.907 1.39-4.563Q10.657 2 12.813 2q2.125 0 3.766 1.656 1.64 1.656 1.39 4.563-.25 2.874-1.64 4.922-1.39 2.046-3.516 2.046m6.968 1.75-6.25 6.25H.813l.906-3.22q.28-.937.968-1.624t1.625-.969l4.407-1.25 4.094 4.063q0-.063 1.359-1.422l2.672-2.672zm6.313-3.844L32 19l-9.719 9.719a.4.4 0 0 0-.031-.14.2.2 0 0 0-.094-.11.49.49 0 0 0-.39-.188.49.49 0 0 0-.391.188.49.49 0 0 0-.187.39q0 .235.187.391.03.063.11.094.077.03.14.031L19 32l-5.906-5.906 2.625-2.625q0 .062.031.125a.53.53 0 0 0 .484.281.53.53 0 0 0 .547-.547.53.53 0 0 0-.156-.39.2.2 0 0 0-.11-.094.4.4 0 0 0-.14-.031zm-8.094 12a.49.49 0 0 0 .188-.39.49.49 0 0 0-.188-.391.53.53 0 0 0-.39-.157.53.53 0 0 0-.391.157.53.53 0 0 0-.156.39.53.53 0 0 0 .156.39.49.49 0 0 0 .39.188.49.49 0 0 0 .391-.187m1.406 1.406a.64.64 0 0 0 .156-.422.53.53 0 0 0-.156-.39.62.62 0 0 0-.406-.157.62.62 0 0 0-.406.156.62.62 0 0 0-.156.407q0 .219.156.406.187.156.406.156a.62.62 0 0 0 .406-.156m1.375 1.375a.62.62 0 0 0 .156-.406.62.62 0 0 0-.156-.406.62.62 0 0 0-.406-.157.62.62 0 0 0-.406.156.62.62 0 0 0-.156.407q0 .219.156.406.187.156.406.156a.62.62 0 0 0 .406-.156m5.156-4.375-.625-2.937 1.188-1.157q.344-.375.438-.719.093-.343-.063-.468-.155-.156-.5-.063-.344.095-.687.438L24.53 19.78l-2.937-.625-.344.375 2.281 1.25-1.312 1.282-1.063-.094-.187.187 1.187.782.781 1.187.188-.187-.094-1.063 1.281-1.312 1.25 2.28z"
+                                                                clip-rule="evenodd"></path>
+                                                        </svg>
+                                                        <div
+                                                            style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
+                                                            <p
+                                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
+                                                                Manage your booking</p>
+                                                            <p style="color: rgb(148, 154, 154);;">Arrange it yourself
+                                                                in My
+                                                                Transavia </p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+
+
+                                            <li style="margin-top: 15px;">
+                                                <a style="color: rgb(0, 0, 0);" class="dropdown-item"
+                                                    href="online.html">
+                                                    <div style="display: flex;gap: 13px;">
+                                                        <svg style="width: 25px;margin-bottom: 30px;"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                                            role="img" aria-hidden="true">
+                                                            <path
+                                                                d="m20.938 10.094-4.75 6.437L12 12.375l1.406-1.437 2.563 2.53 3.375-4.562zM28 19l4 4v2q0 .844-.578 1.422Q30.843 27 30 27H2q-.813 0-1.406-.578A1.9 1.9 0 0 1 0 25v-2l4-4V5q0-.405.297-.703A.96.96 0 0 1 5 4h22q.406 0 .703.297A.96.96 0 0 1 28 5zm-8 5v-1h-8v1zm6-5V6H6v13z">
+                                                            </path>
+                                                        </svg>
+                                                        <div
+                                                            style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
+                                                            <p
+                                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
+                                                                Online check-in</p>
+                                                            <p style="color: rgb(148, 154, 154);">Check in online for
+                                                                your
+                                                                flight</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li style="margin-top: 15px;">
+                                                <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
+                                                    <div style="display: flex;gap: 13px;">
+                                                        <svg style="width: 25px;margin-bottom: 30px;"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                                            role="img" aria-hidden="true">
+                                                            <path
+                                                                d="M31.37 2.23a3.16 3.16 0 0 1-.83 1.32 9 9 0 0 1-3.15 2C23.71 7.05 20 8.52 16.35 10a34 34 0 0 1-6.87 1.8c-1.42.24-2.86.4-4.29.59a1 1 0 0 0-.24 0c-.52.16-.79-.11-1.09-.5C2.66 10.3 1.43 8.77.21 7.23A.9.9 0 0 0 0 7c.41-.17.8-.33 1.19-.47a.42.42 0 0 1 .3.06l4.59 2.09a.5.5 0 0 0 .34 0C8.27 8 10.12 7.22 12 6.47l.15-.08L4.79.81C5.37.59 5.92.4 6.44.15A1.46 1.46 0 0 1 7.7.13c3.43 1.26 6.86 2.49 10.3 3.73a.73.73 0 0 0 .58 0c2.33-.93 4.65-1.86 7-2.77a9 9 0 0 1 3.91-.68 3.1 3.1 0 0 1 1.29.37 1.2 1.2 0 0 1 .59 1.45M0 23.16h19.69v-2.91H0ZM29.08 6.39a1.48 1.48 0 1 0 1.47 1.49 1.48 1.48 0 0 0-1.47-1.49m-9.86 4a1.47 1.47 0 1 0 1.46 1.46 1.47 1.47 0 0 0-1.46-1.5Z">
+                                                            </path>
+                                                        </svg>
+                                                        <div
+                                                            style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
+                                                            <p
+                                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
+                                                                Flight status</p>
+                                                            <p style="color: rgb(148, 154, 154);">Check the status of
+                                                                your
+                                                                flight</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+
+
                                         </div>
 
-                                    </div>
-                                </div>
+                                        <div>
+                                            <li
+                                                style="color:#c19921 ;font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;padding-bottom: 25px;padding-left: 15px;">
+                                                Go directly to </li>
+                                            <div
+                                                style="display: flex;align-content:space-between ;flex-wrap: wrap;gap: 20px;">
 
+                                                <a href="" class="dropdown-item" href="#"
+                                                    style="padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Book
+                                                    hold luggage</a>
+                                                <a href="" class="dropdown-item" href="#"
+                                                    style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Reserve
+                                                    a seat </a>
+                                                <a href="" class="dropdown-item" href="#"
+                                                    style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Change
+                                                    your flight </a>
+                                                <a href="" class="dropdown-item" href="#"
+                                                    style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Request
+                                                    booking confirmation</a>
+                                            </div>
 
-
-
-                            </ul>
-
-
-                        <li class="nav-item dropdown">
-                            <a style="color: #233b4d;font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;"
-                                class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Service
-                            </a>
-                            <ul style="width: 600px;padding: 30px;border-radius: 15px;;flex-direction: column;"
-                                class="dropdown-menu">
-                                <div style="display: flex;">
-                                    <div>
-                                        <li
-                                            style="color:#c19921 ;font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;padding-left: 15px;">
-                                            Get support</li>
-
-                                        <li style="margin-top: 15px;">
-                                            <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
-                                                <div style="display: flex;gap: 13px;">
-                                                    <svg style="width: 25px;margin-bottom: 30px;"
-                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-                                                        role="img" aria-hidden="true">
-                                                        <path
-                                                            d="M16 3q2.656 0 5.016 1.016a13.3 13.3 0 0 1 4.14 2.78 13.1 13.1 0 0 1 2.813 4.142A12.6 12.6 0 0 1 29 16q0 2.688-1.016 5.063a13.05 13.05 0 0 1-2.78 4.14 13.1 13.1 0 0 1-4.126 2.781Q18.72 29 16 29q-2.688 0-5.062-1.016a13.05 13.05 0 0 1-4.141-2.78 13.05 13.05 0 0 1-2.781-4.142Q3 18.689 3 16t1.016-5.062a13.05 13.05 0 0 1 2.78-4.141 13.05 13.05 0 0 1 4.142-2.781Q13.312 3 16 3m0 22.031q.813 0 1.39-.578.579-.578.579-1.39 0-.813-.578-1.391A1.9 1.9 0 0 0 16 21.094q-.813 0-1.39.578a1.9 1.9 0 0 0-.579 1.39q0 .813.578 1.391.58.578 1.391.578m4.531-10.312q.625-1.157.703-2.39.078-1.235-.578-2.423a4.5 4.5 0 0 0-1.89-1.953A5.6 5.6 0 0 0 16 7.25q-2.532 0-3.953 1.734-1.422 1.735-1.422 3.766h3.125q0-.625.484-1.516.485-.89 1.766-.89.626 0 1.203.281t.766.719a.9.9 0 0 1 .14.719q-.078.405-.265.812a6 6 0 0 1-.64.766q-.33.327-.642.672A14 14 0 0 0 15 15.937q-.625.781-.406 3.313h3.375q-.187-.97.093-1.703.282-.735.907-1.266.437-.312.781-.61.345-.296.781-.952">
-                                                        </path>
-                                                    </svg>
-                                                    <div
-                                                        style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
-                                                        <p
-                                                            style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;">
-                                                            Help Center</p>
-                                                        <p style="color: rgb(148, 154, 154);;">Check out our FAQs </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-
-
-                                        <li style="margin-top: 15px;">
-                                            <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
-                                                <div style="display: flex;gap: 13px;">
-                                                    <svg style="width: 25px;margin-bottom: 30px;"
-                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-                                                        role="img" aria-hidden="true">
-                                                        <path
-                                                            d="M30.75 24.656a4.85 4.85 0 0 0-1.266-2.14 4.85 4.85 0 0 0-2.14-1.266l-5.938-1.719a312 312 0 0 1-1.828 1.813q-.953.938-1.75 1.734-.797.797-1.312 1.328Q16 24.937 16 25l-5.437-5.437-5.907 1.687A4.73 4.73 0 0 0 2.5 22.516a5.2 5.2 0 0 0-1.281 2.14L0 29h32zM16 18q1.438 0 2.64-.75 1.204-.75 2.11-2.047.906-1.296 1.484-3.031.578-1.734.735-3.703.156-1.97-.375-3.531-.532-1.563-1.516-2.657A6.8 6.8 0 0 0 18.766.594 6.7 6.7 0 0 0 16 0q-1.437 0-2.766.594a6.8 6.8 0 0 0-2.312 1.687q-.985 1.095-1.516 2.657t-.375 3.53q.157 1.97.735 3.704t1.484 3.031q.906 1.297 2.11 2.047Q14.561 18 16 18">
-                                                        </path>
-                                                    </svg>
-                                                    <div
-                                                        style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
-                                                        <p
-                                                            style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;">
-                                                            Self Service</p>
-                                                        <p style="color: rgb(148, 154, 154);">Change your booking </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-                                        <li style="margin-top: 15px;">
-                                            <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
-                                                <div style="display: flex;gap: 13px;">
-                                                    <svg style="width: 25px;margin-bottom: 30px;"
-                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
-                                                        role="img" aria-hidden="true">
-                                                        <path
-                                                            d="M26.102 10.102c.101.296.101.695.195 1 .805 5.898-3.399 11.5-9.594 13.5 1.195.601 2.594 1 4.094 1.195.703.101 1.406.101 2.101.101 3.399 3.399 6.704 4 6.704 4s-1.399-2.195-2-5.195C30 23.398 31.703 21.297 32 18.797c.297-3.695-2.102-7.094-5.898-8.695m0 0">
-                                                        </path>
-                                                        <path
-                                                            d="M23.898 11.398c-.695-5.5-6.695-9.195-13.195-8.296C4.102 4-.602 9.203.203 14.602c.399 3.101 2.399 5.601 5.297 7-.703 3.5-2.203 6-2.203 6S7.102 26.898 11 23c.797 0 1.602 0 2.5-.102 6.398-.796 11.102-6 10.398-11.5m0 0">
-                                                        </path>
-                                                    </svg>
-                                                    <div
-                                                        style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
-                                                        <p
-                                                            style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;">
-                                                            Contact us</p>
-                                                        <p style="color: rgb(148, 154, 154);">Get in touch with Sally
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-
-
-
+                                        </div>
                                     </div>
 
-                                    <div>
-                                        <li
-                                            style="color:#c19921 ;font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;padding-left: 15px;padding-bottom: 25px;">
-                                            information about: </li>
-                                        <div
-                                            style="display: flex;align-content:space-between ;flex-wrap: wrap;gap: 20px;">
 
-                                            <a href="" class="dropdown-item" href="#"
-                                                style="padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Check-in</a>
-                                            <a href="" class="dropdown-item" href="#"
-                                                style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Hold
-                                                luggage </a>
-                                            <a href="" class="dropdown-item" href="#"
-                                                style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Hand
-                                                luggage </a>
-                                            <a href="" class="dropdown-item" href="#"
-                                                style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Change
-                                                booking</a>
-                                            <a href="" class="dropdown-item" href="#"
-                                                style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Flight
-                                                and travel information</a>
+
+
+                                </ul>
+
+
+                            <li class="nav-item dropdown">
+                                <a id="ai"
+                                    style="color: #233b4d;font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;"
+                                    class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Service
+                                </a>
+                                <ul style="width: 600px;padding: 30px;border-radius: 15px;;flex-direction: column;"
+                                    class="dropdown-menu">
+                                    <div style="display: flex;">
+                                        <div>
+                                            <li
+                                                style="color:#c19921 ;font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;padding-left: 15px;">
+                                                Get support</li>
+
+                                            <li style="margin-top: 15px;">
+                                                <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
+                                                    <div style="display: flex;gap: 13px;">
+                                                        <svg style="width: 25px;margin-bottom: 30px;"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                                            role="img" aria-hidden="true">
+                                                            <path
+                                                                d="M16 3q2.656 0 5.016 1.016a13.3 13.3 0 0 1 4.14 2.78 13.1 13.1 0 0 1 2.813 4.142A12.6 12.6 0 0 1 29 16q0 2.688-1.016 5.063a13.05 13.05 0 0 1-2.78 4.14 13.1 13.1 0 0 1-4.126 2.781Q18.72 29 16 29q-2.688 0-5.062-1.016a13.05 13.05 0 0 1-4.141-2.78 13.05 13.05 0 0 1-2.781-4.142Q3 18.689 3 16t1.016-5.062a13.05 13.05 0 0 1 2.78-4.141 13.05 13.05 0 0 1 4.142-2.781Q13.312 3 16 3m0 22.031q.813 0 1.39-.578.579-.578.579-1.39 0-.813-.578-1.391A1.9 1.9 0 0 0 16 21.094q-.813 0-1.39.578a1.9 1.9 0 0 0-.579 1.39q0 .813.578 1.391.58.578 1.391.578m4.531-10.312q.625-1.157.703-2.39.078-1.235-.578-2.423a4.5 4.5 0 0 0-1.89-1.953A5.6 5.6 0 0 0 16 7.25q-2.532 0-3.953 1.734-1.422 1.735-1.422 3.766h3.125q0-.625.484-1.516.485-.89 1.766-.89.626 0 1.203.281t.766.719a.9.9 0 0 1 .14.719q-.078.405-.265.812a6 6 0 0 1-.64.766q-.33.327-.642.672A14 14 0 0 0 15 15.937q-.625.781-.406 3.313h3.375q-.187-.97.093-1.703.282-.735.907-1.266.437-.312.781-.61.345-.296.781-.952">
+                                                            </path>
+                                                        </svg>
+                                                        <div
+                                                            style="display: flex;flex-direction: column;gap: 1px;justify-content:right;">
+                                                            <p
+                                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;">
+                                                                Help Center</p>
+                                                            <p style="color: rgb(148, 154, 154);;">Check out our FAQs
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+
+
+                                            <li style="margin-top: 15px;">
+                                                <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
+                                                    <div style="display: flex;gap: 13px;">
+                                                        <svg style="width: 25px;margin-bottom: 30px;"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                                            role="img" aria-hidden="true">
+                                                            <path
+                                                                d="M30.75 24.656a4.85 4.85 0 0 0-1.266-2.14 4.85 4.85 0 0 0-2.14-1.266l-5.938-1.719a312 312 0 0 1-1.828 1.813q-.953.938-1.75 1.734-.797.797-1.312 1.328Q16 24.937 16 25l-5.437-5.437-5.907 1.687A4.73 4.73 0 0 0 2.5 22.516a5.2 5.2 0 0 0-1.281 2.14L0 29h32zM16 18q1.438 0 2.64-.75 1.204-.75 2.11-2.047.906-1.296 1.484-3.031.578-1.734.735-3.703.156-1.97-.375-3.531-.532-1.563-1.516-2.657A6.8 6.8 0 0 0 18.766.594 6.7 6.7 0 0 0 16 0q-1.437 0-2.766.594a6.8 6.8 0 0 0-2.312 1.687q-.985 1.095-1.516 2.657t-.375 3.53q.157 1.97.735 3.704t1.484 3.031q.906 1.297 2.11 2.047Q14.561 18 16 18">
+                                                            </path>
+                                                        </svg>
+                                                        <div
+                                                            style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
+                                                            <p
+                                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;">
+                                                                Self Service</p>
+                                                            <p style="color: rgb(148, 154, 154);">Change your booking
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li style="margin-top: 15px;">
+                                                <a style="color: rgb(0, 0, 0);" class="dropdown-item" href="#">
+                                                    <div style="display: flex;gap: 13px;">
+                                                        <svg style="width: 25px;margin-bottom: 30px;"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"
+                                                            role="img" aria-hidden="true">
+                                                            <path
+                                                                d="M26.102 10.102c.101.296.101.695.195 1 .805 5.898-3.399 11.5-9.594 13.5 1.195.601 2.594 1 4.094 1.195.703.101 1.406.101 2.101.101 3.399 3.399 6.704 4 6.704 4s-1.399-2.195-2-5.195C30 23.398 31.703 21.297 32 18.797c.297-3.695-2.102-7.094-5.898-8.695m0 0">
+                                                            </path>
+                                                            <path
+                                                                d="M23.898 11.398c-.695-5.5-6.695-9.195-13.195-8.296C4.102 4-.602 9.203.203 14.602c.399 3.101 2.399 5.601 5.297 7-.703 3.5-2.203 6-2.203 6S7.102 26.898 11 23c.797 0 1.602 0 2.5-.102 6.398-.796 11.102-6 10.398-11.5m0 0">
+                                                            </path>
+                                                        </svg>
+                                                        <div
+                                                            style="display: flex;;flex-direction: column;gap: 1px;justify-content:right;">
+                                                            <p
+                                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;">
+                                                                Contact us</p>
+                                                            <p style="color: rgb(148, 154, 154);">Get in touch with
+                                                                Sally
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+
+
                                         </div>
 
+                                        <div>
+                                            <li
+                                                style="color:#c19921 ;font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;padding-left: 15px;padding-bottom: 25px;">
+                                                information about: </li>
+                                            <div
+                                                style="display: flex;align-content:space-between ;flex-wrap: wrap;gap: 20px;">
+
+                                                <a href="" class="dropdown-item" href="#"
+                                                    style="padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Check-in</a>
+                                                <a href="" class="dropdown-item" href="#"
+                                                    style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Hold
+                                                    luggage </a>
+                                                <a href="" class="dropdown-item" href="#"
+                                                    style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Hand
+                                                    luggage </a>
+                                                <a href="" class="dropdown-item" href="#"
+                                                    style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Change
+                                                    booking</a>
+                                                <a href="" class="dropdown-item" href="#"
+                                                    style="margin-bottom: px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-size:large ;font-weight:bold;text-decoration: none;">Flight
+                                                    and travel information</a>
+                                            </div>
+
+                                        </div>
                                     </div>
-                                </div>
 
 
 
 
-                            </ul>
-                        <li style="margin-left: 180px;;" class="nav-item">
-                            <a style="color: #c19921;font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;"
-                                class="nav-link active" aria-current="page" href="online.html">Online check-in </a>
-                        </li>
-                        </li>
+                                </ul>
+                            <li style="margin-left: 450px;;" class="nav-item">
+                                <a id="on"
+                                    style="color: #c19921;font-family: 'Nunito Sans', sans-serif;font-size:large ; font-weight: 700;"
+                                    class="nav-link active" aria-current="page" href="online.html">Online check-in </a>
+                            </li>
+                            </li>
 
 
-                        <li style="margin-right: 3px;">
-                            <a href="online.html"> <button
-                                    style="background-color: rgb(255, 255, 255);border-radius: 5px;box-shadow: 4px 4px 4px rgb(203, 197, 197); margin-left:19px ;"
-                                    class="Button_button__2NaSa Button_small__0c1Px Button_white__RJdYy Button_width-auto__fYL77"
-                                    type="submit" data-testid="topnav-mytransavia-desktop">
-                                    <div style="display: flex;gap: 10px;margin: 2px;" class="Button_content__2uzRr">
-                                        <span class="Button_icon__DtiD5">
-                                            <svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 32 32" role="img" aria-hidden="true">
-                                                <path
-                                                    d="M30.75 24.656a4.85 4.85 0 0 0-1.266-2.14 4.85 4.85 0 0 0-2.14-1.266l-5.938-1.719a312 312 0 0 1-1.828 1.813q-.953.938-1.75 1.734-.797.797-1.312 1.328Q16 24.937 16 25l-5.437-5.437-5.907 1.687A4.73 4.73 0 0 0 2.5 22.516a5.2 5.2 0 0 0-1.281 2.14L0 29h32zM16 18q1.438 0 2.64-.75 1.204-.75 2.11-2.047.906-1.296 1.484-3.031.578-1.734.735-3.703.156-1.97-.375-3.531-.532-1.563-1.516-2.657A6.8 6.8 0 0 0 18.766.594 6.7 6.7 0 0 0 16 0q-1.437 0-2.766.594a6.8 6.8 0 0 0-2.312 1.687q-.985 1.095-1.516 2.657t-.375 3.53q.157 1.97.735 3.704t1.484 3.031q.906 1.297 2.11 2.047Q14.561 18 16 18">
-                                                </path>
-                                            </svg>
-                                        </span>
-                                        <span>
-                                            <span
-                                                style="color: #150052;font-weight: bold;font-family: 'Nunito Sans', sans-serif;"
-                                                class="Text_text__TJEGF Text_text-sm__TRctm Text_grey-700__Wutlx Text_bold__T5OWP BlockMargin_mb-0__6DUtS">Sign
-                                                in </span>
-                                        </span>
-                                    </div>
-                                </button></a>
+                            <li style="margin-right: 3px;">
+                                <a href="online.html">
+                                    <button id="bu"
+                                        style="background-color: rgb(255, 255, 255);border-radius: 5px;box-shadow: 4px 4px 4px rgb(203, 197, 197); margin-left:19px ;"
+                                        class="Button_button__2NaSa Button_small__0c1Px Button_white__RJdYy Button_width-auto__fYL77"
+                                        type="submit" data-testid="topnav-mytransavia-desktop">
+                                        <div style="display: flex;gap: 10px;margin: 2px;width: 100%;"
+                                            class="Button_content__2uzRr">
+                                            <span class="Button_icon__DtiD5">
+                                                <svg style="width: 20px;" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 32 32" role="img" aria-hidden="true">
+                                                    <path
+                                                        d="M30.75 24.656a4.85 4.85 0 0 0-1.266-2.14 4.85 4.85 0 0 0-2.14-1.266l-5.938-1.719a312 312 0 0 1-1.828 1.813q-.953.938-1.75 1.734-.797.797-1.312 1.328Q16 24.937 16 25l-5.437-5.437-5.907 1.687A4.73 4.73 0 0 0 2.5 22.516a5.2 5.2 0 0 0-1.281 2.14L0 29h32zM16 18q1.438 0 2.64-.75 1.204-.75 2.11-2.047.906-1.296 1.484-3.031.578-1.734.735-3.703.156-1.97-.375-3.531-.532-1.563-1.516-2.657A6.8 6.8 0 0 0 18.766.594 6.7 6.7 0 0 0 16 0q-1.437 0-2.766.594a6.8 6.8 0 0 0-2.312 1.687q-.985 1.095-1.516 2.657t-.375 3.53q.157 1.97.735 3.704t1.484 3.031q.906 1.297 2.11 2.047Q14.561 18 16 18">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span>
+                                                <span
+                                                    style="color: #150052;font-weight: bold;font-family: 'Nunito Sans', sans-serif;"
+                                                    class="Text_text__TJEGF Text_text-sm__TRctm Text_grey-700__Wutlx Text_bold__T5OWP BlockMargin_mb-0__6DUtS">Sign
+                                                    in
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </button>
+                                </a>
 
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                style="position: fixed; top: 0; left: 0; width: 100%; height: 100vh; z-index: -1;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="d:\my finaly project\napoli2.jpg" class="d-block w-100"
+                            style="height: 100vh; object-fit: cover;" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="d:\my finaly project\nature.jpg" class="d-block w-100"
+                            style="height: 100vh; object-fit: cover;" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="d:\my finaly project\suisse.jpg" class="d-block w-100"
+                            style="height: 100vh; object-fit: cover;" alt="...">
+                    </div>
                 </div>
             </div>
-        </nav>
-        <div>
-            <h4
-                style="color: rgb(255, 255, 255);text-align: center;font-weight: 900;font-family: 'Nunito Sans', sans-serif;margin-bottom: 40px;margin-top: 40px;">
-                experience to the world's most breathtaking <br>destinations.</h4>
-            <div style="text-align: center;">
-                <button id="b1" onmouseover="forme1('rgb(110, 110, 110)')" onmouseout="forme2('#c19921')"
-                    style="background-color: #c19921;color: rgb(247, 247, 247);width: 190px;height: 40px;border-radius: 10px;border: white ;">Explore
-                    Destinations </button>
-                <button id="b2" onmouseover="forme3('white','blue')" onmouseout="forme4('rgba(255, 255, 255, 0)','white')"
-                    style="color: rgb(255, 255, 255);background-color: rgba(255, 255, 255, 0.288);width: 150px;height: 40px;border-radius: 10px;border: rgb(18, 18, 18);;">Plan
-                    My Trip</button>
+            <div id="page-content" style="position: relative; z-index: 1; padding: 30px;">
+                <div>
+                    <h4
+                        style="color: rgb(255, 255, 255);text-align: center;font-weight: 900;font-family: 'Nunito Sans', sans-serif;margin-bottom: 40px;margin-top: 40px;">
+                        Experience to the world's most breathtaking <br>destinations.</h4>
+                    <div style="text-align: center;">
+                        <button id="b1" onmouseover="forme1('rgb(110, 110, 110)')" onmouseout="forme2('#c19921')"
+                            style="background-color: #c19921;color: rgb(247, 247, 247);width: 190px;height: 40px;border-radius: 10px;border: white ;">Explore
+                            Destinations </button>
+                        <button id="b2" onmouseover="forme3('rgba(255, 255, 255, 0)',' rgb(255, 255, 255)')"
+                            onmouseout="forme4('rgba(255, 255, 255, 0.281)','rgb(255, 255, 255)')"
+                            style="color: rgb(255, 255, 255);background-color: rgba(255, 255, 255, 0.281);width: 150px;height: 40px;border-radius: 10px;border: rgb(18, 18, 18);;">Plan
+                            My Trip</button>
+                    </div>
+                </div>
+                <div
+                    style="background-color:rgba(244, 238, 238, 0.85);width: 70%; min-height: 600px; border-radius: 20px; margin-left: auto; margin-right: auto; margin-top: 60px; display: flex; flex-wrap: wrap; padding: 40px;">
+
+                    <form style="text-align: center;margin-left: 5%;padding-top: 30px;width: 100%;">
+
+                        <h2
+                            style="font-weight:bolder;font-family: 'Nunito Sans', sans-serif; font-weight: 700;text-align: center;color: #c19921;font-size:xx-large;">
+                            Where do you want to go?</h2>
+                        <div style="display: flex;flex-direction: column;;padding-bottom: 8%;">
+                            <label
+                                style="padding-bottom: 1%;font-weight:bolder;font-family: 'Nunito Sans', sans-serif;display: block;width: 100%;text-align: start;font-weight: 700;">From</label>
+                            <style>
+                                .form-select-sm-custom {
+                                    font-size: 12px;
+                                    padding: 10px 10px 10px 10px;
+                                    height: auto;
+                                    border-radius: 8px;
+
+
+                                }
+                            </style>
+
+                            <select id="from" class="form-select" style="width: 95%;">
+                                <option selected>Depart airport</option>
+                                <option>Izmir, Turkey</option>
+                                <option>Al Hoceima, Morocco</option>
+                                <option>algerienne</option>
+                                <option>Algiers, Algeria</option>
+                                <option>Karpathos, Greece</option>
+                                <option>Stockholm (Arlanda), Sweden</option>
+                                <option>Belgrade, Serbia</option>
+                                <option>Berlin, Germany</option>
+                                <option>Biarritz, France</option>
+                                <option>Bodrum, Turkey</option>
+                                <option>Bologna, Italy</option>
+                                <option>Bordeaux, France</option>
+                                <option>Bodrum, Turkey</option>
+                                <option>Istanbul Airport, Turkey</option>
+                                <option>Ouarzazate, Morocco</option>
+                                <option>Klagenfurt, Austria</option>
+                                <option>Pisa, Italy</option>
+                                <option>Tozeur, Tunisia</option>
+
+                            </select>
+
+
+
+
+                        </div>
+                        <div style="display: flex;flex-direction: column;justify-content: flex-end;padding-bottom: 8%;">
+                            <label
+                                style="padding-right: 67%;padding-bottom: 1%;font-weight:bolder;font-family: 'Nunito Sans', sans-serif;display: block;width: 100%;text-align: start;font-weight: 700;">To</label>
+                            <style>
+                                .form-select-sm-custm {
+                                    font-size: 12px;
+                                    padding: 10px 10px 10px 10px;
+                                    height: auto;
+                                    border-radius: 8px;
+
+
+                                }
+                            </style>
+
+                            <select id="from" class="form-select" style="width: 95%;">
+                                <option selected>Depart airport</option>
+                                <option>Izmir, Turkey</option>
+                                <option>Al Hoceima, Morocco</option>
+                                <option>algerienne</option>
+                                <option>Algiers, Algeria</option>
+                                <option>Karpathos, Greece</option>
+                                <option>Stockholm (Arlanda), Sweden</option>
+                                <option>Belgrade, Serbia</option>
+                                <option>Berlin, Germany</option>
+                                <option>Biarritz, France</option>
+                                <option>Bodrum, Turkey</option>
+                                <option>Bologna, Italy</option>
+                                <option>Bordeaux, France</option>
+                                <option>Bodrum, Turkey</option>
+                                <option>Istanbul Airport, Turkey</option>
+                                <option>Ouarzazate, Morocco</option>
+                                <option>Klagenfurt, Austria</option>
+                                <option>Pisa, Italy</option>
+                                <option>Tozeur, Tunisia</option>
+
+                            </select>
+                        </div>
+                        <div id="Passagers" style="display: flex;justify-content: space-between;width: 88%;">
+                            <style>
+                                @media (max-width:1170px){
+                                    #Passagers{
+                                        flex-direction: column;
+                                    }
+
+                                }
+                              @media (max-width:700px){
+                                #calendar{
+                                    flex-direction: column;
+                                }
+                              }
+                            </style>
+                            <div style="width: 60%;">
+                                <h5
+                                    style="display: flex;justify-content: first baseline;font-family: 'Nunito Sans', sans-serif;font-weight: 700;">
+                                    Date</h5>
+                                <div id="calendar" style="display: flex;justify-content: first baseline; gap: 10px;">
+                                    <input
+                                        style="width: 180px;height: 35px;border-radius: 10px;font-family: 'Nunito Sans', sans-serif;"
+                                        type="date" id="departure" placeholder="Depart on">
+                                    <input
+                                        style="width: 180px;height: 35px;border-radius: 10px;font-family: 'Nunito Sans', sans-serif;"
+                                        type="date" id="return" placeholder="Return on">
+                                </div>
+
+                            </div>
+                            <div style="width: 35%;padding-top: 18px;" class="btn-group" role="group"
+                                aria-label="Button group with nested dropdown">
+
+
+                                <div class="btn-group" role="group" style="position: relative;">
+                                    <button id="list" type="button"
+                                        style="width: 270px;border-radius: 15px;height: 50px;font-weight: 700;font-family: 'Nunito Sans', sans-serif;">
+                                        Passagers <span style="color:rgb(238, 241, 241) ;">h55562356hhhhhhhhh</span>
+                                    </button>
+                                    <ul id="choice"
+                                        style="display: none; width: 320px;padding-top: 20px; position: absolute; bottom: 40px; background-color: rgb(255, 255, 255);border-radius: 10px;margin-right: 0px;text-align: start;">
+                                        <div>
+
+                                            <div
+                                                style="display: flex;flex-wrap: nowrap; justify-content: space-around;">
+                                                <div>
+                                                    <p
+                                                        style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
+                                                        Adults</p>
+                                                    <p style="color: rgb(148, 154, 154);">+16 years</p>
+                                                </div>
+                                                <div
+                                                    style="display: flex; justify-content: space-around;width: 100px;padding-top: 10px;gap: 10px;">
+                                                    <button id="moin"
+                                                        style="border-radius: 20px;width: 30px;height: 30px;">-</button>
+                                                    <input id="qu" type="text" value="1"
+                                                        style="width: 35px;height: 30px;text-align: center;border-radius: 5px;">
+                                                    <button style="border-radius: 20px;width: 30px;height: 30px;"
+                                                        id="plus">+</button>
+                                                </div>
+                                            </div>
+
+                                            <div style="display: flex;flex-wrap: nowrap;justify-content: space-around;">
+                                                <div>
+                                                    <p
+                                                        style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
+                                                        Children</p>
+                                                    <p style="color: rgb(148, 154, 154);">2-16years</p>
+                                                </div>
+                                                <div
+                                                    style="display: flex; justify-content: space-around;width: 100px;padding-top: 10px;gap: 10px;">
+                                                    <button id="moin"
+                                                        style="border-radius: 20px;width: 30px;height: 30px;">-</button>
+                                                    <input type="text" value="0" id="qu"
+                                                        style="width: 35px;height: 30px;text-align: center;border-radius: 5px;">
+                                                    <button id="plus"
+                                                        style="border-radius: 20px;width: 30px;height: 30px;">+</button>
+                                                </div>
+                                            </div>
+
+
+                                            <div style="display: flex;flex-wrap: nowrap;justify-content: space-around;">
+                                                <div>
+                                                    <p
+                                                        style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
+                                                        Babies</p>
+                                                    <p style="color: rgb(148, 154, 154);">-2years</p>
+                                                </div>
+                                                <div
+                                                    style="display: flex; justify-content: space-around;width: 100px;padding-top: 10px;gap: 10px;">
+                                                    <button id="moin"
+                                                        style="border-radius: 20px;width: 30px;height: 30px;">-</button>
+                                                    <input type="text" value="0" id="qu"
+                                                        style="width: 35px;height: 30px;text-align: center;border-radius: 5px;">
+                                                    <button id="plus"
+                                                        style="border-radius: 20px;width: 30px;height: 30px;">+</button>
+                                                </div>
+                                            </div>
+                                            <hr style="border: 1px solid black; width: 250px;margin-left: 30px;">
+                                            <div style="padding-left: 10%;width: 280px;">
+                                                <p>Please note that you may only book a maximum of 9 passengers. For
+                                                    bulk
+                                                    bookings, please contact your local Gulf Air office <a
+                                                        style="color:#c19921;" href="contactus">here</a></p>
+                                            </div>
+                                        </div>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+                    </form>
+                    <a href="" id="bu"
+                        style="background-color:#c19921;color: aliceblue;width: 120px;height: 40px;border-radius: 10px;text-decoration: none;margin-left: 33px;text-align: center;padding-top: 5px;padding-left: 5px;padding-right: 5px;">Flight
+                        search</a>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <div style="width: 100%;height: auto;background-color: rgb(243, 242, 242);">
+        <div style="text-align: center; padding-top: 7%;">
+            <h1 style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;">All Destinations</h1>
+            <span>Explore our complete collection of handpicked <br>destination that offer the perefect blend of
+                adventure, <br>culture, and relaxation.</span>
+        </div>
+
+        <style>
+            #bu {
+                transition: transform 0.2s ease;
+                /* يجعل التحويل سلس */
+            }
+
+            #bu:hover {
+                transform: scale(1.05);
+            }
+
+            #ca:hover {
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+                ;
+            }
+        </style>
+        <div style="display: flex; width: 100%;justify-content: space-around;height: auto;margin-top: 5%; flex-wrap: wrap;">
+            <div id="ca" class="card" style="width: 25rem;">
+                <img src="napoli2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;">Italy,
+                        Napoli</h5>
+                    <p class="card-text">Discover the charm of Naples, a city of rich history and authentic Italian
+                        flavor, where mountains meet the sea and adventure awaits around every corner.
+                    </p>
+                    <a id="bu" href="#" class="btn btn-primary stretched-link"
+                        style="background-color: #c19921;border: #c19921;margin-top: 7%;">View Details</a>
+                </div>
+            </div>
+            <div id="ca" class="card" style="width: 25rem;">
+                <img src="https://cdn.neho.ch/local_page/86/agence%20immobili%C3%A8re%20gen%C3%A8ve%20(1).jpg_cover_image.jpg"
+                    class="card-img-top" alt="..." style="height: auto;">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;">Suisse,
+                        Genève</h5>
+                    <p class="card-text">Experience the elegance of Zurich, Switzerland’s vibrant heart, where stunning
+                        alpine views meet world-class culture, shopping, and serenity by the lake.
+
+                    </p>
+
+                    <a id="bu" href="#" class="btn btn-primary stretched-link"
+                        style="background-color: #c19921;border: #c19921;">View Details</a>
+                </div>
+            </div>
+            <div id="ca" class="card" style="width: 25rem;">
+                <img src="https://media.istockphoto.com/id/615705628/fr/photo/frankfurt-am-main.jpg?s=612x612&w=0&k=20&c=z7XMNi5_tydmf-vVNzgC9XW5hYZzRgoTA75_CdGzw-k="
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;">Germany,
+                        Frankfurt</h5>
+                    <p class="card-text">Discover Frankfurt – a dynamic blend of finance and culture, where modern
+                        skyscrapers meet historic charm and traditional markets along the scenic Main River.
+                    </p>
+                    <a href="#" class="btn btn-primary stretched-link" id="bu"
+                        style="background-color: #c19921;border: #c19921;">View Details</a>
+                </div>
             </div>
         </div>
         <div
-            style="background-color:rgba(218, 222, 222, 0.863);width:60%;height: 60%;border-radius: 15px;margin-left: 22%;display: flex;margin-top: 50px;flex-wrap: wrap;">
-            <form style="text-align: center;margin-left: 5%;padding-top: 30px;width: 100%;" action="">
-
-                <h2
-                    style="font-weight:bolder;font-family: 'Nunito Sans', sans-serif; font-weight: 700;text-align: center;color: #c19921;font-size:xx-large;">
-                    Where do you want to go?</h2>
-                <div style="display: flex;flex-direction: column;;padding-bottom: 8%;">
-                    <label
-                        style="padding-bottom: 5%;font-weight:bolder;font-family: 'Nunito Sans', sans-serif;display: block;width: 100%;text-align: start;font-weight: 700;">From</label>
-                    <style>
-                        .form-select-sm-custom {
-                            font-size: 12px;
-                            padding: 10px 10px 10px 10px;
-                            height: auto;
-                            border-radius: 8px;
-
-
-                        }
-                    </style>
-
-                    <select style="width: 95%;color: rgb(122, 120, 120);"
-                        class="form-select form-select-sm form-select-sm-custom" aria-label="Small select example">
-                        <option selected style="color: rgb(176, 180, 183);font-family: 'Nunito Sans', sans-serif;">
-                            Depart airport</option>
-                        <option style="color: black;">Izmir, Turkey</option>
-                        <option style="color: black;">Al Hoceima, Morocco</option>
-                        <option style="color: black;">algerienne</option>
-                        <option style="color: black;">Algiers, Algeria</option>
-                        <option style="color: black;">Karpathos, Greece</option>
-                        <option style="color: black;">Stockholm (Arlanda), Sweden</option>
-                        <option style="color: black;">Belgrade, Serbia</option>
-                        <option style="color: black;">Berlin, Germany</option>
-                        <option style="color: black;">Biarritz, France</option>
-                        <option style="color: black;">Bodrum, Turkey</option>
-                        <option style="color: black;">Bologna, Italy</option>
-                        <option style="color: black;">Bordeaux, France</option>
-                        <option style="color: black;">Bodrum, Turkey</option>
-                        <option style="color: black;">Istanbul Airport, Turkey</option>
-                        <option style="color: black;">Ouarzazate, Morocco</option>
-                        <option style="color: black;">Klagenfurt, Austria</option>
-                        <option style="color: black;">Pisa, Italy</option>
-                        <option style="color: black;">Tozeur, Tunisia</option>
-                    </select>
-
-
-
-
+            style="display: flex; width: 100%; ;justify-content: space-around;height: auto;margin-top: 2%; padding-bottom: 4%; flex-wrap: wrap;">
+            <div id="ca" class="card" style="width: 25rem;">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/35/d6/e1/water-suite-aerial-view.jpg?w=900&h=500&s=1"
+                    class="card-img-top" alt="..." style="height: 250px;">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;">Maldives
+                    </h5>
+                    <p class="card-text">Experience the enchanting beauty of the Maldives, where crystal-clear turquoise
+                        waters, white sandy beaches, and unmatched serenity await you in the heart of the Indian Ocean.
+                    </p>
+                    <a href="#" class="btn btn-primary stretched-link" id="bu"
+                        style="background-color: #c19921;border: #c19921;margin-top: 22%;">View Details</a>
                 </div>
-                <div style="display: flex;flex-direction: column;justify-content: flex-end;padding-bottom: 8%;">
-                    <label
-                        style="padding-right: 67%;padding-bottom: 5%;font-weight:bolder;font-family: 'Nunito Sans', sans-serif;display: block;width: 100%;text-align: start;font-weight: 700;">To</label>
-                    <style>
-                        .form-select-sm-custm {
-                            font-size: 12px;
-                            padding: 10px 10px 10px 10px;
-                            height: auto;
-                            border-radius: 8px;
+            </div>
+            <div id="ca" class="card" style="width: 25rem;">
+                <img src="https://mediaim.expedia.com/destination/1/47704bbfccc18fa70f994e87f9d737c1.jpg"
+                    class="card-img-top" alt="..." style="height: 250px;">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;">Maroco,
+                        Casablanca</h5>
+                    <p class="card-text">Discover the charm of Casablanca, a vibrant city where modernity meets
+                        tradition in the heart of Morocco.</p>
 
-
-                        }
-                    </style>
-
-                    <select style="width: 95%;color: rgb(122, 120, 120);"
-                        class="form-select form-select-sm form-select-sm-custm" aria-label="Small select example">
-                        <option selected style="color: rgb(176, 180, 183);font-family: 'Nunito Sans', sans-serif;">
-                            Destination</option>
-                        <option style="color: black;">Izmir, Turkey</option>
-                        <option style="color: black;">Al Hoceima, Morocco</option>
-                        <option style="color: black;">algerienne"></option>
-                        <option style="color: black;">Algiers, Algeria</option>
-                        <option style="color: black;">Karpathos, Greece</option>
-                        <option style="color: black;">Stockholm (Arlanda), Sweden</option>
-                        <option style="color: black;">Belgrade, Serbia</option>
-                        <option style="color: black;">Berlin, Germany</option>
-                        <option style="color: black;">Biarritz, France</option>
-                        <option style="color: black;">Bodrum, Turkey</option>
-                        <option style="color: black;">Bologna, Italy</option>
-                        <option style="color: black;">Bordeaux, France</option>
-                        <option style="color: black;">Bodrum, Turkey</option>
-                        <option style="color: black;">Istanbul Airport, Turkey</option>
-                        <option style="color: black;">Ouarzazate, Morocco</option>
-                        <option style="color: black;">Klagenfurt, Austria</option>
-                        <option style="color: black;">Pisa, Italy</option>
-                        <option style="color: black;">Tozeur, Tunisia</option>
-                    </select>
+                    <a href="#" class="btn btn-primary stretched-link" id="bu"
+                        style="margin-top: 28%;background-color: #c19921;border: #c19921;">View Details</a>
                 </div>
-                <div style="display: flex;justify-content: space-between;width: 88%;">
-                    <div style="width: 60%;">
-                        <h5
-                            style="display: flex;justify-content: first baseline;font-family: 'Nunito Sans', sans-serif;font-weight: 700;">
-                            Date</h5>
-                        <div style="display: flex;justify-content: first baseline; gap: 10px;">
-                            <input
-                                style="width: 180px;height: 35px;border-radius: 10px;font-family: 'Nunito Sans', sans-serif;"
-                                type="text" id="departure" placeholder="Depart on">
-                            <input
-                                style="width: 180px;height: 35px;border-radius: 10px;font-family: 'Nunito Sans', sans-serif;"
-                                type="text" id="return" placeholder="Return on">
-                        </div>
-
-                    </div>
-                    <div style="width: 35%;padding-top: 18px;" class="btn-group" role="group"
-                        aria-label="Button group with nested dropdown">
-
-
-                        <div class="btn-group" role="group" style="position: relative;">
-                            <button id="list" type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                                style="width: 270px;border-radius: 15px;height: 50px;font-weight: 700;font-family: 'Nunito Sans', sans-serif;">
-                                Passagers
-                            </button>
-                            <ul id="choice"
-                                style="display: none; width: 320px;padding-top: 20px; position: absolute; bottom: 40px; background-color: rgb(255, 255, 255);border-radius: 10px;margin-right: 0px;text-align: start;">
-                                <div>
-
-                                    <div style="display: flex;flex-wrap: nowrap; justify-content: space-around;">
-                                        <div>
-                                            <p
-                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
-                                                Adults</p>
-                                            <p style="color: rgb(148, 154, 154);">+16 years</p>
-                                        </div>
-                                        <div
-                                            style="display: flex; justify-content: space-around;width: 100px;padding-top: 10px;gap: 10px;">
-                                            <button style="border-radius: 20px;width: 30px;height: 30px;">-</button>
-                                            <input id="input" type="text" value="1"
-                                                style="width: 35px;height: 30px;text-align: center;border-radius: 5px;">
-                                            <button style="border-radius: 20px;width: 30px;height: 30px;"
-                                                id="plus">+</button>
-                                        </div>
-                                    </div>
-
-                                    <div style="display: flex;flex-wrap: nowrap;justify-content: space-around;">
-                                        <div>
-                                            <p
-                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
-                                                Children</p>
-                                            <p style="color: rgb(148, 154, 154);">2-16years</p>
-                                        </div>
-                                        <div
-                                            style="display: flex; justify-content: space-around;width: 100px;padding-top: 10px;gap: 10px;">
-                                            <button style="border-radius: 20px;width: 30px;height: 30px;">-</button>
-                                            <input type="text" value="0"
-                                                style="width: 35px;height: 30px;text-align: center;border-radius: 5px;">
-                                            <button style="border-radius: 20px;width: 30px;height: 30px;">+</button>
-                                        </div>
-                                    </div>
-
-
-                                    <div style="display: flex;flex-wrap: nowrap;justify-content: space-around;">
-                                        <div>
-                                            <p
-                                                style="margin-bottom: 1px;padding-top:4px;color: rgb(0, 0, 0);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size:large;">
-                                                Babies</p>
-                                            <p style="color: rgb(148, 154, 154);">-2years</p>
-                                        </div>
-                                        <div
-                                            style="display: flex; justify-content: space-around;width: 100px;padding-top: 10px;gap: 10px;">
-                                            <button style="border-radius: 20px;width: 30px;height: 30px;">-</button>
-                                            <input type="text" value="0"
-                                                style="width: 35px;height: 30px;text-align: center;border-radius: 5px;">
-                                            <button style="border-radius: 20px;width: 30px;height: 30px;">+</button>
-                                        </div>
-                                    </div>
-                                    <hr style="border: 1px solid black; width: 250px;margin-left: 30px;">
-                                    <div style="padding-left: 10%;width: 280px;">
-                                        <p>Please note that you may only book a maximum of 9 passengers. For bulk
-                                            bookings, please contact your local Gulf Air office <a
-                                                style="color:#c19921;" href="contactus">here</a></p>
-                                    </div>
-                                </div>
-
-                            </ul>
-                        </div>
-                    </div>
-
+            </div>
+            <div id="ca" class="card" style="width: 25rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjG6o_rWzk9o_YlBo-Q3wSFvJe-umrdXH2CA&s"
+                    class="card-img-top" alt="..." style="height: 250px;">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;">Britain
+                        London</h5>
+                    <p class="card-text">Discover the charm of London, where history meets modernity and royal palaces
+                        blend with vibrant global culture at every corner.
+                    </p>
+                    <a href="#" class="btn btn-primary stretched-link" id="bu"
+                        style="margin-top: 28%;background-color: #c19921;border: #c19921;">View Details</a>
                 </div>
-
-
-
-
-
-
-
-            </form>
-            <a href=""
-                style="background-color:#c19921;color: aliceblue;width: 120px;height: 40px;border-radius: 10px;text-decoration: none;margin-left: 33px;text-align: center;padding-top: 5px;padding-left: 5px;padding-right: 5px;">Flight
-                search</a>
-
+            </div>
         </div>
     </div>
 
 
+    <div style="width: 100%;height: auto;background-color: rgb(255, 255, 255);">
+        <style>
+            #os {
+                transition: box-shadow 0.3s ease;
+                /* لجعل التأثير سلس */
+                box-shadow: none;
+                border-radius: 15px;
+            }
+
+            #os:hover {
+                box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+            }
+
+            .lucide {
+                transition: background-color 0.2s ease !important;
+                transition: color 0.2s ease !important;
+            }
+
+            .lucide:hover {
+                background-color: #c19921 !important;
+                color: azure !important;
+            }
+        </style>
+        <div style="text-align: center;padding-top: 7%;">
+            <h1 style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;">Our Services</h1>
+            <span>From flights to accommodations, we handle every detail <br>of your journery.</span>
+        </div>
+        <div style="padding-top: 7%; display: flex;justify-content: space-around;padding-bottom: 8%; flex-wrap: wrap;">
+            <div class="" style="height: 250px;padding-top: 2%;" id="os">
+                <div style="text-align: center;border: none" class="card">
+                    <svg style="margin-left:35% ; margin-top:3%;width: 25% !important;padding:5%;color:#c19921;background-color:#f4da8b66;border-radius:43%;height:30%"
+                        xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" fill="none" id="FB"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        data-lucide="plane" class="lucide">
+                        <path
+                            d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z">
+                        </path>
+                    </svg>
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: 700;">Flight Booking</h5>
+                        <p class="card-text">Best deals on intermational <br>and domestic flights</p>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="height: 250px;padding-top: 2%;" id="os">
+                <div style="text-align: center;border: none" class="card">
+
+                    <svg style="margin-left:35% ; margin-top:3%;width: 25% !important;padding:5%;color:#c19921;background-color:#f4da8b66;border-radius:45%;height:30%"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        id="FB" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        data-lucide="map-pin" class="lucide lucide-map-pin service-icon">
+                        <path
+                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                        </path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: 700;">Custom Itineraries</h5>
+                        <p class="card-text">Personalized travel plans<br>tailored to your preferences</p>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="height: 250px;padding-top: 2%;" id="os">
+                <div style="text-align: center;border: none" class="card">
+                    <svg style="margin-left:35% ; margin-top:3%;width: 25% !important;padding:5%;color:#c19921;background-color:#f4da8b66;border-radius:40%;height:30%"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        id="FB" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        data-lucide="calendar" class="lucide lucide-calendar service-icon">
+                        <path d="M8 2v4"></path>
+                        <path d="M16 2v4"></path>
+                        <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                        <path d="M3 10h18"></path>
+                    </svg>
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: 700;">Tour Packages</h5>
+                        <p class="card-text">All-inclusive packages for<br>hassle-free travel</p>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="height: 250px;padding-top: 2%;" id="os">
+                <div style="text-align: center;border: none" class="card">
+                    <svg style="margin-left:35% ; margin-top:3%;width: 25% !important;padding:5%;color:#c19921;background-color:#f4da8b66;border-radius:45%;height:30%"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        id="FB" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        data-lucide="shield" class="lucide lucide-shield service-icon">
+                        <path
+                            d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                        </path>
+                    </svg>
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: 700;">Travel Insurance</h5>
+                        <p class="card-text">Comprehensive coverage <br>for peace of minde</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="width: 100%;height: auto;background-color:  rgb(230, 230, 230); padding: 1%;">
+            <div style="width: 100%;text-align: center;padding-top: 7%;">
+                <h1 style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;">Why Choose Aurevia?</h1>
+                <span>We're committed to making yourtravel dreams a reality <br> with our expertise and personalized
+                    service.</span>
+            </div>
+            <style>
+                #hr {
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                }
+
+                #hr:hover {
+                    transform: scale(1.05);
+                }
+            </style>
+            <div style="display: flex;justify-content: center;padding-top: 7%;gap: 1%;flex-wrap: wrap;">
+
+                <div class="card"
+                    style="width: 25rem;height: 440px; background-color: rgb(255, 255, 255);border-radius: 15px; box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25); ;">
+                    <img src="d:\my finaly project\Capture 45y - Copie (2).png" class="card-img-top" alt="..."
+                        style="width:90%;padding-top:15px;padding-left: 10px;padding-bottom: 22px;" id="hr">
+                    <div class="card-body">
+                        <p class="card-text"
+                            style="font-weight: 500;font-family: 'Nunito Sans', sans-serif;font-size: x-large;text-align: center;">
+                            A wide range of destinations for vacation, work and religion
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="card"
+                    style="width: 25rem;height: 440px; background-color: rgb(255, 255, 255);border-radius: 15px;box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);">
+                    <img src="d:\my finaly project\Capture 45y - Copie (2).png" class="card-img-top" alt="..."
+                        style="width: 95%;padding-left:25px;padding-bottom:15px;padding-top: 10px; " id="hr">
+                    <div class="card-body">
+                        <p class="card-text"
+                            style="font-weight: 500;font-family: 'Nunito Sans', sans-serif;font-size: x-large;text-align: center;">
+                            Excellent value for money <br><br>Combine and save!</p>
+                    </div>
+                </div>
+
+
+                <div class="card"
+                    style="width: 25rem;height: 440px; background-color: rgb(255, 255, 255);border-radius: 15px;box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);">
+                    <img src="d:\my finaly project\Capture 45y - Copie (4).png" class="card-img-top" alt="..."
+                        style="width: 90%;padding-left:30px;padding-top: 25px;padding-bottom: 10px;" id="hr">
+                    <div class="card-body">
+                        <p class="card-text"
+                            style="font-weight: 500;font-family: 'Nunito Sans', sans-serif;font-size: x-large;text-align: center;padding-top:15px">
+                            Enjoy the world's widest business class seat</p>
+                    </div>
+                </div>
+
+            </div>
+            <div style="display: flex;justify-content: center;padding-top: 2%;gap: 1%;flex-wrap: wrap;">
+
+                <div class="card"
+                    style="width: 25rem;height: 440px; background-color: rgb(255, 255, 255);border-radius: 15px;box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);">
+                    <img src="d:\my finaly project\Capture 45y - Copie (5).png" class="card-img-top" alt="..."
+                        style="width:80%;padding-top:15px;padding-left: 40px;" id="hr">
+                    <div class="card-body">
+                        <p class="card-text"
+                            style="font-weight: 500;font-family: 'Nunito Sans', sans-serif;font-size: x-large;text-align: center;">
+                            Travel with confidence <br><br>Dedicated customer service
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="card"
+                    style="width: 25rem;height: 440px; background-color: rgb(255, 255, 255);border-radius: 15px;box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);">
+                    <img src="d:\my finaly project\Capture 45y - Copie.png" class="card-img-top" alt="..."
+                        style="width: 95%;padding-left:25px;padding-bottom:25px ;padding-top:5px" id="hr">
+                    <div class="card-body">
+                        <p class="card-text"
+                            style="font-weight: 500;font-family: 'Nunito Sans', sans-serif;font-size: x-large;text-align: center;">
+                            Your comfort above all else
+                            <br>
+                            No hidden fees or surcharges
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="card"
+                    style="width: 25rem;height: 440px; background-color: rgb(255, 255, 255);border-radius: 15px;box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);">
+                    <img src="d:\my finaly project\Capture 45y.png" class="card-img-top" alt="..."
+                        style="width: 95%;padding-left:30px;padding-top: 25px;" id="hr">
+                    <div class="card-body">
+                        <p class="card-text"
+                            style="font-weight: 500;font-family: 'Nunito Sans', sans-serif;font-size: x-large;text-align: center;padding-top:20px">
+                            No hidden fees or additional charges</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div style="width: 100%;height: auto;padding: 2%;">
+            <div style="text-align: center;padding-top: 7%;">
+                <h1 style="font-family: 'Nunito Sans', sans-serif;font-weight: 700;">What our travelers Say</h1>
+                <span>Real experiences from our amazing customes around the <br> world.</span>
+            </div>
+            <div>
+                <style>
+                    #com {
+                        transition: all 0.5s;
+                    }
+
+                    #com:hover {
+                        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+                        transition: translateY(-4px);
+                    }
+                </style>
+                <div style="width: 100%;height: auto;display: flex;justify-content: center;gap:40px;margin-top:7% ;flex-wrap: wrap;">
+                    <div id="com"
+                        style="width: 18rem;height: 16rem;background-color: rgb(227, 222, 222);padding: 2%;border-radius: 15px">
+                        <span>"Aurevia made our European honeymoon absolutely magical! Every detail was perfectly
+                            planned, and we created memories that will last a lifetime"</span>
+                        <div
+                            style="display: flex;gap: 30px;background-color: rgb(227, 222, 222);align-items: center;margin-top: 3%;;">
+                            <h6
+                                style="background-color: #c19921;padding: 14px;border-radius: 50%;height: 50px;color: rgb(255, 255, 255);width: 50px;font-size:large;">
+                                SJ</h6>
+                            <Div>
+                                <h5>Sarah Johnson</h5>
+                                <span>New York, USA</span>
+                            </Div>
+                        </div>
+                    </div>
+                    <div id="com"
+                        style="width: 18rem;height: 16rem;background-color: rgb(227, 222, 222);padding: 2%;border-radius: 15px">
+                        <span>" The best travel experience I’ve ever had. Professional service, amazing destinations,
+                            and incredible value for money. Highly recommended!"</span>
+                        <div
+                            style="display: flex;gap: 30px;background-color: rgb(227, 222, 222);align-items: center;margin-top: 3%;;">
+                            <h6
+                                style="background-color: #c19921;padding: 14px;border-radius: 50%;height: 50px;color: rgb(255, 255, 255);width: 50px;font-size:large;">
+                                MC</h6>
+                            <div>
+                                <h5>Michael Chen</h5>
+                                <span>Toronto, Canada</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="width: 100%;height: auto;display: flex;justify-content: center;gap:40px; flex-wrap: wrap; margin-top:7%">
+                    <div id="com"
+                        style="width: 18rem;height: 16rem;background-color: rgb(227, 222, 222);padding: 2%;border-radius: 15px">
+                        <span>" From the moment we contacted Aurevia to the end of our trip, everything was seamless.
+                            Their attention to detail is unmatched!"</span>
+                        <div
+                            style="display: flex;gap: 30px;background-color: rgb(227, 222, 222);align-items: center;margin-top: 3%;padding-top: 20px;">
+                            <h6
+                                style="background-color: #c19921;padding: 14px;border-radius: 50%;height: 50px;color: rgb(255, 255, 255);width: 50px;font-size:large;">
+                                EW</h6>
+                            <Div>
+                                <h5>Emma Williams</h5>
+                                <span>London, UK</span>
+                            </Div>
+                        </div>
+                    </div>
+                    <div id="com"
+                        style="width: 18rem;height: 16rem;background-color: rgb(227, 222, 222);padding: 2%;border-radius: 15px">
+                        <span>"Crafting unforgettable journeys, one moment at a time."</span>
+                        <div
+                            style="display: flex;gap: 30px;background-color: rgb(227, 222, 222);align-items: center;margin-top: 3%;padding-top: 35px;">
+                            <h6
+                                style="background-color: #c19921;padding: 14px;border-radius: 50%;height: 50px;color: rgb(255, 255, 255);width: 50px;font-size:large;">
+                                JS</h6>
+                            <div>
+                                <h5>James Sullivan</h5>
+                                <span>San Diego, USA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width: 100%;height: 850px;background-color: black;">
+            <div style="text-align: center;">
+                <h2
+                    style="color: aliceblue;font-family: 'Nunito Sans', sans-serif;font-weight: 700;padding-top: 7%;padding-bottom: 2%;">
+                    Stay Inspired</h2>
+                <span style="color: aliceblue;">Subscribe to our newslettre for exclusive travel deal,<br>destination
+                    guides, and insider tips.</span>
+                <div style="display: flex;justify-content: center;gap: 15px;border: 1px solid black;padding-top: 3%;">
+                    <input type="email" name="" id="" placeholder="Enter your email"
+                        style="width: 25%;border-radius: 8px;height: 40px;border: 1px solid black;padding-left: 15px;">
+                    <button id="bu"
+                        style="color: aliceblue;background-color: #c19921;border-radius: 8px;border: 1px solid black;padding: 8px;width: 9%;">
+                        Subscribe</button>
+                </div>
+            </div>
+            <div style="display: flex;justify-content: space-around;padding-top: 8%;">
+                <div style="text-align: start;;">
+                    <div
+                        style="display: flex;flex-direction: column;align-items: center;width: 200px;;padding-right: 90px">
+                        <img style="width: 70px;height: 50px;" src="d:\my finaly project\fotimg.png" alt="">
+                        <SPAN
+                            style="color: rgb(255, 255, 255);font-family: 'Nunito Sans', sans-serif;font-weight: 700;font-size: x-large;">AUREVIA</SPAN>
+                    </div>
+                    <div style="padding-top: 25px">
+                        <span style="color: rgb(177, 175, 175);">Your
+                            trusted partner in creating <br> unforgettable travel experiences <br>around the
+                            world.</span>
+                    </div>
+                    <div style="padding-top: 10%;">
+                        <div>
+                            <i class="fa-solid fa-phone fa-xl" style="color: #FFD43B;padding-bottom: 25px;"></i>
+                            <span style="color: rgb(255, 255, 255);padding-left: 15px;">+216 48-053-557</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope fa-xl" style="color: #FFD43B;"></i>
+                            <span style="color: aliceblue;padding-left: 15px;">hello@aurecia.com</span>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div style="display: flex; flex-direction: column;  gap: 15px;padding-top: 15px;">
+                    <style>
+                        #de {
+                            text-decoration: none;
+                            color: rgb(177, 175, 175);
+                        }
+
+                        #de:hover {
+                            color: rgb(254, 254, 254);
+                        }
+                    </style>
+                    <h5 style="color: rgb(255, 255, 255);">Destinations</h5>
+                    <a id="de" href="">Europe </a><a id="de" href="">Asia </a><a id="de" href="">Americas</a><a id="de"
+                        href="">Africa</a>
+                </div>
+                <div style="display: flex; flex-direction: column;  gap: 15px;padding-top: 15px;">
+                    <h5 style="color: rgb(255, 255, 255);">Services</h5>
+                    <a id="de" href="">Flight Booking</a><a id="de" href="">Hotel Reservation</a><a id="de" href="">Tour
+                        Packages</a><a id="de" href="">Travel Insurance</a>
+                </div>
+                <div style="display: flex; flex-direction: column;  gap: 15px;padding-top: 15px;">
+                    <h5 style="color: rgb(255, 255, 255);">Company </h5>
+                    <a id="de" href="">About us </a><a id="de" href="">Contact </a><a id="de" href="">Privacy
+                        Policy</a><a id="de" href="">Terms of Service </a>
+                </div>
+            </div>
+            <hr style="width: 90%;color: rgb(177, 175, 175);margin-left: 5%;margin-top: 4%;">
+            <div style="text-align: center"><span style="color: rgb(177, 175, 175) ;text-align: center ;"> © 2025
+                    Aurevia Travel Agency. All rights reserved.</span></div>
+
+        </div>
 
 
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous">
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous">
+
+            </script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        <script>
+            let depart = document.querySelector("#departure")
+            let retur = document.querySelector("#return")
+            
+            const today = new Date();
+            let tomorrow = new Date(today);
+            tomorrow.setDate(today.getDate() + 1);
+            console.log(tomorrow.toDateString().slice(4));
+           
+            flatpickr("#departure", {
+                dateFormat: "d M Y",
+                minDate: "today"
+            });
+            flatpickr("#return", {
+                dateFormat: "M d Y",
+                minDate: tomorrow.toDateString().slice(4)
+            });
+            depart.addEventListener("change", function (e) {
+                e.preventDefault()
+                y = new Date(depart.value)
+                y.setDate(y.getDate()+1)
+           
+                
+                
+                tomorrow=y.toDateString().slice(4)
+                console.log(tomorrow);
+                
+                   flatpickr("#return", {
+                    dateFormat: "M d Y",
+                    minDate: tomorrow
+                });
+            })
+           
+
+
+
+            function forme1(c1) {
+                document.querySelector("#b1").style.backgroundColor = c1;
+
+            }
+            function forme2(c1) {
+                document.querySelector("#b1").style.backgroundColor = c1;
+
+            }
+            function forme3(c1, c2) {
+                document.querySelector("#b2").style.backgroundColor = c1;
+                document.querySelector("#b2").style.color = c2;
+            }
+            function forme4(c1, c2) {
+                document.querySelector("#b2").style.backgroundColor = c1;
+                document.querySelector("#b2").style.Color = c2;
+
+            }
+
+
+
+
+
+
+            var list = document.querySelector("#list")
+            var choice = document.querySelector("#choice")
+
+
+            list.addEventListener("click", function (e) {
+                e.preventDefault()
+                if (choice.style.display == "none") {
+                    choice.style.display = "block"
+                }
+                else {
+
+                    choice.style.display = "none"
+                }
+                console.log(choice.style.display)
+            })
+
+            qu = document.querySelectorAll("#qu");
+            plus = document.querySelectorAll("#plus");
+            moin = document.querySelectorAll("#moin");
+
+            for (let i = 0; i < qu.length; i++) {
+                plus[i].addEventListener("click", function (e) {
+                    e.preventDefault()
+                    if (qu[i].value < 9) {
+                        return qu[i].value++
+                    }
+                })
+                moin[i].addEventListener("click", function (e) {
+                    e.preventDefault()
+                    if (qu[i].value > 0) {
+                        return qu[i].value--
+                    }
+                })
+            }
         </script>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-    <script>
-        flatpickr("#departure", {
-            dateFormat: "d M Y",
-            minDate: "today"
-        });
-
-        flatpickr("#return", {
-            dateFormat: "d M Y",
-            minDate: "today"
-        });
-        b1 = document.querySelector("#b1")
-        b2 = document.querySelector("#b2")
-        list.addEventListener("o")
-
-
-
-
-        function forme1(c1){
-            document.querySelector("#b1").style.backgroundColor=c1;
-
-        }
-        function forme2(c1){
-            document.querySelector("#b1").style.backgroundColor=c1;
-
-        }
-        function forme3(c1,c2){
-            document.querySelector("#b2").style.backgroundColor=c1;
-             document.querySelector("#b2").style.color=c2;
-        }
-        function forme4(c1,c2){
-            document.querySelector("#b2").style.backgroundColor=c1;
-             document.querySelector("#b2").style.color=c2;
-
-        }
-
-
-
-
-
-
-        var list = document.querySelector("#list")
-        var choice = document.querySelector("#choice")
-
-
-        list.addEventListener("click", function () {
-
-            if (choice.style.display == "none") {
-                choice.style.display = "block"
-            }
-            else {
-
-                choice.style.display = "none"
-            }
-            console.log(choice.style.display)
-        })
-    </script>
 
 </body>
 
